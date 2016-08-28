@@ -1,0 +1,720 @@
+zend-framework (1.12.13-0ppa2ubuntu1) trusty; urgency=medium
+
+  * new upstream release
+
+ -- Timur Batyrshin <erthad@gmail.com>  Wed, 29 Jul 2015 21:30:09 +0200
+
+zend-framework (1.11.11-0ubuntu2) trusty; urgency=medium
+
+  * Install ini file in correct location with PHP 5.5 (LP: #1243568).
+  * Added debian watch file.
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sat, 22 Feb 2014 12:56:28 +0100
+
+zend-framework (1.11.11-0ubuntu1) precise; urgency=low
+
+  * new upstream bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.11
+
+ -- Stephan Adig <sh@sourcecode.de>  Tue, 18 Oct 2011 07:20:31 +0000
+
+zend-framework (1.11.10-0ubuntu1) oneiric; urgency=low
+
+  * New upstream bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.10
+  * debian/control: Changed Orig Maintainer Name to Stephan Adig
+  * debian/copyright: Changed Name from Hermann to Adig
+
+ -- Stephan Adig <sh@sourcecode.de>  Mon, 08 Aug 2011 13:05:22 +0000
+
+zend-framework (1.11.9-0ubuntu1) oneiric; urgency=low
+
+  * New upstream bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.9
+
+ -- Stephan Adig <sh@sourcecode.de>  Fri, 15 Jul 2011 09:58:32 +0000
+
+zend-framework (1.11.8-0ubuntu1) oneiric; urgency=low
+
+  * New upstream bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.8
+
+ -- Stephan Adig <sh@sourcecode.de>  Mon, 11 Jul 2011 09:53:05 +0000
+
+zend-framework (1.11.7-0ubuntu1) oneiric; urgency=low
+
+  * New upstream bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.7
+
+ -- Stephan Adig <sh@sourcecode.de>  Tue, 07 Jun 2011 10:03:22 +0000
+
+zend-framework (1.11.6-0ubuntu1) oneiric; urgency=low
+
+  * New upstream bugfix version
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.6
+
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 22 May 2011 23:22:54 -0500
+
+zend-framework (1.11.5-0ubuntu1) natty; urgency=low
+
+  * New upstream bugfix version
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.5
+
+
+ -- Stephan Adig <sh@sourcecode.de>  Mon, 11 Apr 2011 07:39:27 +0000
+
+zend-framework (1.11.4-0ubuntu1) natty; urgency=low
+
+  * New upstream bugfix version
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.4
+    This releases fixes also the following security bug:
+    http://framework.zend.com/security/advisory/ZF2011-01
+
+ -- Stephan Adig <sh@sourcecode.de>  Wed, 09 Mar 2011 09:22:40 +0000
+
+zend-framework (1.11.3-0ubuntu1) natty; urgency=low
+
+  * New upstream bugfix version
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.3
+
+ -- Stephan Adig <sh@sourcecode.de>  Wed, 02 Feb 2011 17:04:41 +0000
+
+zend-framework (1.11.2-0ubuntu1) natty; urgency=low
+
+  * New upstream bugfix version
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.2
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 10 Jan 2011 08:17:23 +0000
+
+zend-framework (1.11.1-0ubuntu1) natty; urgency=low
+
+  * New upstream bugfix version
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.11.1
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 06 Dec 2010 18:31:44 +0000
+
+zend-framework (1.11.0reallyfinal-0ubuntu1) natty; urgency=low
+
+  * New upstream version
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 04 Nov 2010 11:01:33 +0000
+
+
+zend-framework (1.11.0rc1-0ubuntu1) natty; urgency=low
+
+  * New upstream version
+
+ -- Stephan Hermann <sh@sourcecode.de>  Fri, 22 Oct 2010 13:35:34 +0000
+
+zend-framework (1.10.8-0ubuntu1) maverick; urgency=low
+
+  * New bugfix release (LP: #627319)
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.10.8
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 31 Aug 2010 09:06:47 +0000
+
+zend-framework (1.10.7-0ubuntu1) maverick; urgency=low
+
+  * New bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.10.7
+  * debian/control:
+    + conflict/releases on the debian zendframework package
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 02 Aug 2010 09:53:41 +0000
+
+zend-framework (1.10.6-0ubuntu1) maverick; urgency=low
+
+  * New bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.10.6
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 23 Jun 2010 18:39:00 +0000
+
+zend-framework (1.10.5-0ubuntu1) maverick; urgency=low
+
+  * New bugfix release 
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.10.5
+  * debian/control:
+    + Added a new package libzend-framework-zendx-php (LP: #538426)
+  * debian/Makefile:
+    + Copy extras/library/ZendX to the right location
+
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 27 May 2010 08:27:02 +0000
+
+zend-framework (1.10.3-0ubuntu1) lucid; urgency=low
+
+  * New bugfix release
+    A complete list of bugfixes you can find here:
+    http://framework.zend.com/changelog/1.10.3
+  * No FFE needed
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 06 Apr 2010 15:12:40 +0000
+
+zend-framework (1.10.2-0ubuntu1) lucid; urgency=low
+
+  * New Bugfix release
+    A complete list of changes you can find here
+    http://framework.zend.com/changelog/1.10.2
+  * No FFE needed, because of bugfix only release
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 02 Mar 2010 09:30:44 +0000
+
+zend-framework (1.10.1-0ubuntu1) lucid; urgency=low
+
+  * New Bugfix release
+    A list of changes you can find here:
+    http://framework.zend.com/changelog/1.10.1
+  * debian/rules: 
+    + adjusted get-orig-source target, to check if 
+      the original upstream tarball already exists,
+      if not download it from upstream server
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 11 Feb 2010 14:03:40 +0000
+
+zend-framework (1.10.0stable-0ubuntu2) lucid; urgency=low
+
+  * debian/control: 
+    + Added libjs-dojo-core, libjs-dojo-dijit and libjs-dojo-dojox as
+      new suggests for zend-framework/libzend-framework-php
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 08 Feb 2010 14:39:48 +0000
+
+zend-framework (1.10.0stable-0ubuntu1) lucid; urgency=low
+
+  * New upstream release of ZF 1.10.0
+    + The new features and changes of this version you can find
+      here: http://framework.zend.com/changelog/1.10.0
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 28 Jan 2010 18:40:20 +0000
+
+zend-framework (1.10.0rc1-0ubuntu1~lucid~paa1) lucid; urgency=low
+
+  * Release Candidate 1 of ZF 1.10
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 25 Jan 2010 08:30:17 +0000
+
+zend-framework (1.10.0beta1-0ubuntu1~lucid~ppa1) lucid; urgency=low
+
+  * Beta Release of ZF 1.10
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 18 Jan 2010 11:16:30 +0000
+
+zend-framework (1.10.0alpha1-0ubuntu1~lucid~ppa1) lucid; urgency=low
+
+  * Alpha Release of ZF 1.10
+
+ -- Stephan Hermann <sh@sourcecode.de>  Sat, 02 Jan 2010 12:39:59 +0000
+
+zend-framework (1.9.7-0ubuntu1) lucid; urgency=low
+
+  * New upstream bugfix release
+    + Upstream changelog for all fixed issues you can find here:
+      http://framework.zend.com/changelog/1.9.7
+    + This release fixes also the security issues:
+      ZF2010-06: Potential XSS or HTML Injection vector in Zend_Json
+      ZF2010-05: Potential XSS vector in Zend_Service_ReCaptcha_MailHide
+      ZF2010-04: Potential MIME-type Injection in Zend_File_Transfer
+      ZF2010-03: Potential XSS vector in Zend_Filter_StripTags when comments allowed
+      ZF2010-02: Potential XSS vector in Zend_Dojo_View_Helper_Editor
+      ZF2010-01: Potential XSS vectors due to inconsistent encodings
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 12 Jan 2010 08:51:07 +0000
+
+zend-framework (1.9.6-0ubuntu1) lucid; urgency=low
+
+  * New upstream bugfix release
+    + Upstream changelog for all fixed issues you can find here:
+      http://framework.zend.com/changelog/1.9.6
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 25 Nov 2009 23:18:01 +0000
+
+zend-framework (1.9.5-0ubuntu1) lucid; urgency=low
+
+  * New Upstream bugfix release
+    + Upstream changelog for all fixed issues you can find here:
+      http://framework.zend.com/changelog/1.9.5
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 04 Nov 2009 10:19:13 +0000
+
+zend-framework (1.9.4-0ubuntu2) karmic; urgency=low
+
+  * debian/patches/01_ubuntu_bin_zf.sh.patch:
+    + Fix it really (LP: #425471)
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 15 Oct 2009 12:19:13 +0000
+
+zend-framework (1.9.4-0ubuntu1) karmic; urgency=low
+
+  * New bugfix release
+    + Upstream changelog for all fixed issues you can find here:
+      http://framework.zend.com/changelog/1.9.4
+  * Updated debian/patches/01_ubuntu_bin_zf_sh.patch to really fix zf.sh
+    (LP: #425471)
+
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 14 Oct 2009 08:44:06 +0000
+
+zend-framework (1.9.3PL1-0ubuntu1) karmic; urgency=low
+
+  * New bugfix release
+    + Upstream changelog for all fixed issues you can find here:
+      http://framework.zend.com/changelog/1.9.3
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 23 Sep 2009 08:00:47 +0000
+
+zend-framework (1.9.2-0ubuntu2) karmic; urgency=low
+
+  * debian/patches/01_ubuntu_bin_zf_sh.patch:
+    + updated to provide ZEND_TOOL_INCLUDE_PATH_PREPEND (LP: #425471)
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 15 Sep 2009 06:37:53 +0000
+
+zend-framework (1.9.2-0ubuntu1) karmic; urgency=low
+
+  * New Bugfix Release
+    + [ZF-7605]: Zend_Application docs mistake
+    + [ZF-7550]: Bootstrap fails after checking out r17414
+    + [ZF-7417]: clarify confusion between 'resource plugins' and 'resources' in docs
+    + [ZF-7401]: Errors in QuickStart
+    + [ZF-7158]: No automatic creation of Zend_Application_Module_Autoloader for default module
+    + [ZF-7095]: Zend_Application_Resource_Modules Example is wrong
+    + [ZF-7091]: "scripts/load.sqlite.php" is missing "set_include_path"
+    + [ZF-6893]: Cannot use Zend_Application_Resource_FrontController to set baseurl for a subset of environments
+    + [ZF-6861]: Stripping all require_once calls makes Zend_Application unable to work
+    + [ZF-6803]: Zend_Application Default Module Bootstrap is Skipped
+    + [ZF-6679]: Items configured from Zend_Application::setOptions() via a config entry do not have their keys cast to lower case
+    + [ZF-6659]: Module bootstrap implementation
+    + [ZF-6634]: include warning with same module and namespace name
+    + [ZF-4730]: Add possibility to check group-membership in Zend_Auth_Adapter_Ldap
+    + [ZF-7358]: Zend_Cache_Backend_ZendServer_ShMem and Zend_Cache_Backend_ZendServer_Disk throws an exception in test()
+    + [ZF-7172]: How to instatiate the ZendServer cache backends
+    + [ZF-6291]: Zend_Cache::factory() denies creation of Zend_Cache_Backend_TwoLevels backend on Linux
+    + [ZF-5740]: Partial cleaning in Zend_Cache_Backend_TwoLevels::clean()
+    + [ZF-7589]: Zend_Date::setDate when parsing the date to set in an array
+    + [ZF-7554]: testSetLocale(Zend_DateTest) unit tests failure
+    + [ZF-7456]: Regression in 1.9 in ability to create Zend_Date from array
+    + [ZF-7454]: Timezone and Zend_Date
+    + [ZF-7647]: fetchAssoc() and fetchPairs() in Zend_Db_Adapter_Abstract have wrong docblock return type
+    + [ZF-7629]: Zend_Db_Adapter_Pdo_Mssql should pass @table_owner to sp_pkeys
+    + [ZF-5823]: Non-optimized SQL generated for LIMIT clause in MSSQL adapter
+    + [ZF-4251]: Zend_Db_Adapter_Pdo_Mssql doeas not support both LIMIT and DISTINCT in the same query
+    + [ZF-4099]: Zend_Db_Adapter_Pdo_Mssql - Order By in Limit Function
+    + [ZF-3434]: PDO_Mssql DSN includes _config['options']
+    + [ZF-3216]: Zend_Db_Adapter_Mysqli does not provide a proper way to catch MySQL error codes.
+    + [ZF-7549]: Missing prefix and type parameters in the PHPdoc for most of the addPrefixPath methods
+    + [ZF-7544]: Fatal Error when setting same FilterRule more than one time in script call
+    + [ZF-7135]: null values are treated as missing data instead of an empty value
+    + [ZF-7449]: Directive $element->setRegisterInArrayValidator(false) doesn't work anymore
+    + [ZF-7208]: Incubator unit tests stop with fatal error 'Class 'Zend_Ldap_AllTests' not found'
+    + [ZF-7604]: No Zend_Log_Writer_Syslog::setApplication() hence documentation
+    + [ZF-7614]: Incorrect function name in the #42.2 manual entry
+    + [ZF-7613]: There is not "factory" method in the Zend_Queue class
+    + [ZF-7560]: Zend_Translate_Adapter does not properly handle numeric key values
+    + [ZF-7648]: testNotSameMessageContainsTokenAndValue(Zend_Validate_IdenticalTest) unit tests failure
+    + [ZF-7643]: Empty token value in Zend_Validate_Identical::NOT_SAME
+    + [ZF-7631]: Zend_Validate_NotEmpty compatibility
+    + [ZF-7630]: Zend_Validate_Date doesn't accept Zend_Date object
+    + [ZF-6457]: Zend_Validate_Date doesn't validate a value filtered by Zend_Filter_LocalizedToNormalized
+    + [ZF-7597]: Reference guide minor error
+    + [ZF-7676]: Unit tests stop because of the "Call to undefined method Zend_XmlRpc_Server_Fault::getReturnValue()" fatal error
+
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 26 Aug 2009 06:32:14 +0000
+
+zend-framework (1.9.1-0ubuntu1) karmic; urgency=low
+
+  * New Bugfix release
+    +   [ZF-7224]: loader warnings when using class resource for a specific module
+    + [ZF-6672]: autoloading issue in Zend_Application_Bootstrap_BootstrapAbstract::getPluginResource
+    + [ZF-6658]: autoloading issue with the fallback autoloader
+    + [ZF-6813]: setIdentity, setCredentials methods
+    + [ZF-7349]: Zend_Reflection_File does not reflect interfaces. Zend_CodeGenerator cannot generate interfaces. 
+
+    Find more fixed issues under http://framework.zend.com/changelog/1.9.1
+
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 13 Aug 2009 05:59:06 +0000
+
+zend-framework (1.9.0-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+    + Zend_Queue and Zend_Service_Amazon_Sqs, which provide the ability to
+      use local and remote messaging and queue services for offloading
+      asynchronous processes. (Contributed by Justin Plock and Daniel Lo)
+    + Zend_Queue_Adapter_PlatformJobQueue, a Zend_Queue adapter for Zend
+      Platform's Job Queue. (Contributed by Zend Technologies)
+    + Zend_Rest_Route, Zend_Rest_Controller, and
+      Zend_Controller_Plugin_PutHandler, which aid in providing RESTful
+      resources via the MVC layer. (Contributed by Luke Crouch, SourceForge)
+    + Zend_Feed_Reader, which provides a common API to RSS and Atom feeds,
+      as well as extensions to each format, caching, and a slew of other
+      functionality. (Contributed by Pádraic Brady and Jurrien Stutterheim)
+    + Zend_Db_Adapter_Sqlsrv, a Zend_Db adapter for Microsoft's SQL Server
+      driver for PHP. (Contributed by Juozas Kaziukenas and Rob Allen)
+    + Zend_Db_Table updates to allow using Zend_Db_Table as a concrete
+      class by passing it one or more table definitions via the
+      constructor. (Contributed by Ralph Schindler)
+    + Zend_Test_PHPUnit_Db, which provides Zend_Db support for PHPUnit's
+      DBUnit support, allowing developers to do functional and integration
+      testing against databases using data fixtures. (Contributed by
+      Benjamin Eberlei)
+    + Annotation processing support for Zend_Pdf, as well as performance
+      improvements. (Contributed by Alexander Veremyev)
+    + Zend_Dojo custom build layer support. (Contributed by Matthew Weier
+      O'Phinney)
+    + Numerous Zend_Ldap improvements, including full support for CRUD
+      operations, search, and manipulating tree structures. (Contributed by
+      Stefan Gehrig)
+    + Zend_Log_Writer_Syslog, a Zend_Log writer for writing to your system
+      log. (Contributed by Thomas Gelf)
+    + Zend_View_Helper_BaseUrl, a view helper for returning the current base
+      URL to your application, as well as for constructing URLs to public
+      resources. (Contributed by Robin Skoglund and Geoffrey Tran)
+    + Zend_Date now has support for the DateTime extension. (Contributed by
+      Thomas Weidner)
+    + Zend_Locale has been upgraded to CLDR 1.7. (Contributed by Thomas
+      Weidner)
+    + Zend_Translate now has plurals support for the Gettext, Csv, and Array
+      adapters. (Contributed by Thomas Weidner)
+    + PHP 5.3 compatibility, including support for new features in the
+      mysqli extension. All components are fully tested on both PHP 5.2.x
+      and PHP 5.3.0.
+    + In addition, a large number of smaller improvements were made throughout
+      the framework, and around 700 issues have been resolved or closed since
+      the release of 1.8.0!
+      All updates from 1.8.0 to 1.9.0 you can read on: 
+      http://framework.zend.com/changelog/1.9.0
+  * debian/patches/*:
+    - removed pl184 patch
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 03 Aug 2009 10:49:57 +0000
+
+zend-framework (1.8.4-0ubuntu2) karmic; urgency=low
+
+  * debian/patches/10_zf_pluginloader_184pl1.patch:
+    This patch corrects Zend_Loader_PluginLoader for some critical functionality 
+    for Zend_Amf users.
+  * debian/rules: 
+    + added symlink usr/bin/zf as additional call to usr/bin/zf.sh
+      (see https://bugs.launchpad.net/ubuntu/+source/zend-framework/+bug/391596/comments/3
+       as explanation)
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 08 Jul 2009 06:33:20 +0000
+
+zend-framework (1.8.4-0ubuntu1) karmic; urgency=low
+
+  * New upstream version
+    + This is a bugfix release
+      You can find the list of fixes here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=11050
+  * debian/rules:
+    + Added get-orig-source rule (LP: #391598)
+      - Fetching upstream tarball from the usual location
+      - Removal of the DOJO toolkit from upstream tarball
+      - Repackaging the changed upstream tarball 
+    + Install the zf.sh/zf.php script  (LP: #391596)
+  * debian/control:
+    + Added zend-framework-bin package
+    + Package zend-framework depends additionally on zend-framework-bin package
+    + Bump of Binary Deps Version
+  * debian/Makefile:
+    + Added rules to install the scripts
+  * debian/patches/01_ubuntu_zf_sh.patch:
+    + Patch bin/zf.sh to point to the correct zf.php directory
+
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 24 Jun 2009 14:06:29 +0000
+
+zend-framework (1.8.3-0ubuntu1) karmic; urgency=low
+
+  * New upstream version
+    + This is a bugfix release.
+      You can find the list of fixes here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=11041
+
+ -- Stephan Hermann <sh@sourcecode.de>  Fri, 12 Jun 2009 04:58:25 +0000
+
+zend-framework (1.8.2-0ubuntu1) karmic; urgency=low
+
+  * New upstream version
+    + This is a bugfix release.
+      You can find the list of fixes here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=11030
+  * Bumbed Standards-Version
+
+ -- Stephan Hermann <sh@sourcecode.de>  Fri, 29 May 2009 15:51:15 +0000
+
+zend-framework (1.8.1-0ubuntu1) karmic; urgency=low
+
+  * New upstream version
+    + This is a bugfix release.
+      You can find the list of fixes here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=11023
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 14 May 2009 10:49:48 +0000
+
+zend-framework (1.8.0-0ubuntu1) karmic; urgency=low
+
+  * New Upstream version
+    + Zend_Tool, contributed by Ralph Schindler
+    + Zend_Application, contributed by Ben Scholzen and Matthew Weier O'Phinney
+    + Zend_Navigation, contributed by Robin Skoglund
+    + Zend_CodeGenerator, by Ralph Schindler
+    + Zend_Reflection, Ralph Schindler and Matthew Weier O'Phinney
+    + Zend Server backend for Zend_Cache, contributed by Alexander Veremyev
+    + Zend_Service_Amazon_Ec2, contributed by Jon Whitcraft
+    + Zend_Service_Amazon_S3, Justin Plock and Stas Malyshev
+    + Zend_Filter_Encrypt, contributed by Thomas Weidner
+    + Zend_Filter_Decrypt, contributed by Thomas Weidner
+    + Support for file upload progress support in Zend_File_Transfer,
+      contributed by Thomas Weidner
+    + Translation-aware routes, contributed by Ben Scholzen
+    + Zend_Json expression support, contributed by Benjamin Eberlei and Oscar Reales
+    + Zend_Http_Client_Adapter_Curl, contributed by Benjamin Eberlei
+    + SOAP input and output header support, contributed by Alexander Veremyev
+    + Support for keyword field search using query strings,
+      contributed by Alexander Veremyev
+    + Support for searching across multiple indexes in Zend_Search_Lucene,
+      contributed by Alexander Veremyev
+    + Support for page scaling, shifting and skewing in Zend_Pdf,
+      contributed by Alexander Veremyev
+    + Locale support in Zend_Validate_Int and Zend_Validate_Float,
+      contributed by Thomas Weidner
+    + Phonecode support in Zend_Locale, contributed by Thomas Weidner
+    + Zend_Validate_Iban, contributed by Thomas Weidner
+    + Zend_Validate_File_WordCount, contributed by Thomas Weidner
+	
+    A detailed list of all features and bug fixes in this release may be found at:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=11002
+  * Removed old patches
+	
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 12 May 2009 09:39:27 +0000
+
+zend-framework (1.7.5-0ubuntu2) jaunty; urgency=low
+
+  * debian/patches/zf_176_fixes.patch:
+    Added library/ and tests/ fixes from ZendFramework 1.7.6 to 1.7.5 package version
+    A complete list of fixes you can find here:
+    http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10953
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 04 Mar 2009 08:44:28 +0000
+
+zend-framework (1.7.5-0ubuntu1) jaunty; urgency=low
+
+  * New Upstream version
+    - Bugfix / Security Release
+    - A list of fixes you can find here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10951
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 18 Feb 2009 08:24:46 +0000
+
+zend-framework (1.7.4-0ubuntu1) jaunty; urgency=low
+
+  * New Upstream version
+    - Bugfix Release
+    - A list of fixes you can find here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10944
+  * cleaned debian/patches
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 05 Feb 2009 15:23:34 +0000
+
+zend-framework (1.7.3-0ubuntu2) jaunty; urgency=low
+
+  * added debian/patches/zend-framework-pl1.patch (via quilt)
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 29 Jan 2009 11:51:36 +0000
+
+zend-framework (1.7.3-0ubuntu1) jaunty; urgency=low
+
+  * New Upstream Version
+    - Bug Fix Release
+    - A list of fixes you can find here:
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10934
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 21 Jan 2009 15:21:59 +0000
+
+zend-framework (1.7.2-0ubuntu1) jaunty; urgency=low
+
+  * New Upstream Version
+    - Bug Fix Release
+    - A list of fixes you can find here: 
+      http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10923
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 07 Jan 2009 10:02:06 +0000
+
+zend-framework (1.7.1-0ubuntu1) jaunty; urgency=low
+
+  * New Upstream version
+  * New features and components:
+    + Zend_Amf with support for AMF0 and AMF3 protocols
+    + Dojo Toolkit 1.2.1 (Not installed in Ubuntu Package)
+    + Support for dijit editor available in the Dojo Toolkit
+    + Zend_Service_Twitter
+    + ZendX_JQuery in extras library
+    + Metadata API in Zend_Cache
+    + Google book search API in Zend_Gdata
+    + Preliminary support for GData Protocol v2 in Zend_Gdata
+    + Support for skip data processing in Zend_Search_Lucene
+    + Support for Open Office XML documents in Zend_Search_Lucene indexer
+    + Performance enhancements in Zend_Loader, Zend_Controller, and server components
+    + Zend_Mail_Storage_Writable_Maildir enhancements for mail delivery
+    + Zend_Tool in incubator
+    + Zend_Text_Table for formatting table using characters
+    + Zend_ProgressBar
+    + Zend_Config_Writer
+    + ZendX_Console_Unix_Process in the extras library
+    + Zend_Db_Table_Select support for Zend_Paginator
+    + Global parameters for routes
+    + Using Chain-Routes for Hostname-Routes via Zend_Config
+    + I18N improvements
+      - Application wide locale for all classes
+      - Data retrieving methods are now static
+      - Additional cache handling methods in all I18N classes
+      - Zend_Translate API simplified 
+    + File transfer enhancements
+      - Support for file elements in subforms
+      - Support for multifile elements
+      - Support for MAX_FILES_SIZE in form
+      - Support for breaking validation chain
+      - Support for translation of failure ,messages
+      - New IsCompressed, IsImage, ExcludeMimeType, ExcludeExtension validators
+      - Support for FileInfo extension in MimeType validator 
+    + Zend_Db_Table_Select adapater for Zend_Paginator
+    + Support for custom adapters in Zend_Paginator
+    + More flexible handling of complex types in Zend_Soap
+    + All bugs which are fixed you can find here: 
+      - http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10903
+  * Do not install the dojo toolkit which is being shipped inside the original tarball of Zend
+  * Do not install the incubator which is being shipped inside the original tarball of Zend
+  * debian/control: remove quilt from build-depends, not needed anymore
+  * debian/rules: 
+    - remove all quilt relevant patch rules and includes
+    - copy debian/zend-framework.ini to the right location (/etc/php5/conf.d/)
+  * added debian/zend-framework.ini (LP: #220719)
+  * debian/README.Debian:
+    - Updated to the new world order for enabling zend-framework
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 02 Dec 2008 12:22:54 +0000
+
+zend-framework (1.5.3-0ubuntu2) intrepid; urgency=low
+
+  * debian/patches/ubuntu_01_fix_mail.diff:
+    + Fixes upstream bugs:
+      - ZF-3912
+      - ZF-3641
+      - ZF-3865
+  * debian/control:
+    + added quilt to b-d
+  * debian/rules:
+    + added quilt targets to patch source
+
+ -- Stephan Hermann <sh@sourcecode.de>  Mon, 18 Aug 2008 15:26:22 +0200
+
+zend-framework (1.5.3-0ubuntu1) intrepid; urgency=low
+
+  * New upstream version
+    a detailed list of bugs which are fixed you can find at
+    http://framework.zend.com/issues/secure/IssueNavigator.jspa?requestId=10811
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 06 Aug 2008 17:11:49 +0200
+
+zend-framework (1.5.2-0ubuntu1) intrepid; urgency=low
+
+  * New bugfox release
+    a detailed list of bugs which are fixed you can find at 
+    http://framework.zend.com/issues/secure/IssueNavigator.jspa?pager/start=0
+  * debian/control: 
+    - bumbed debhelper version to >= 6
+  * debian/compat:
+    - bumbed compat version to 6
+
+ -- Stephan Hermann <sh@sourcecode.de>  Wed, 21 May 2008 10:14:51 +0200
+
+zend-framework (1.5.1-0ubuntu1) hardy; urgency=low
+
+  * New bugfix release
+    You can find the bugs fixed at 
+    http://framework.zend.com/issues/secure/IssueNavigator.jspa?mode=hide&requestId=10711
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 27 Mar 2008 10:07:48 +0100
+
+zend-framework (1.5.0-0ubuntu1) hardy; urgency=low
+
+  * New upstream release (LP: #204016)
+  * New Features:
+    + New Zend_Form component with support for AJAX-enabled form elements
+    + New action and view helpers for automating and facilitating AJAX requests
+      and
+      alternate response formats
+    + LDAP, Infocard, and OpenID authentication adapters
+    + Support for complex Lucene searches, including fuzzy, date-range, and
+      wildcard
+      queries
+    + Support for Lucene 2.1 index file format
+    + Partial, Placeholder, Action, and Header view helpers for advanced view
+      composition and rendering
+    + New Zend_Layout component for automating and facilitating site layouts
+    + UTF-8 support for PDF documents
+  * Enhancement and Bugfixes
+    * Zend_Json has been augmented to convert from XML to JSON format
+    * New Zend_TimeSync component supporting the Network Time Protocol (NTP)
+    * Improved performance of Zend_Translate with new caching option
+    * addRoute(), addRoutes(), addConfig(), removeRoute(), removeDefaultRoutes()
+      methods of Zend_Controller_Router_Rewrite now support method chaining
+    * Yahoo web service supports Yahoo! Site Explorer and video searches
+    * Database adapter for Firebird/Interbase
+    * Query modifiers for fetch and find methods in Zend_Db_Table
+    * 'init' hook to modify initialization behaviour in subclasses Zend_Db_Table,
+       Rowset, and Row
+    * Support for HTTP CONNECT requests in Zend_Http_Client
+    * Support for PHP's hash() for read/write control in Zend_Cache
+    * Zend_Cache_Backend_File may be configured to call ignore_user_abort() to
+      maintain cache data integrity
+    * Timezone in Zend_Date may be set by locale
+    * Zend_Cache can now use custom frontend and backend classes
+  * debian/control:
+    - Introduce binary package libzend-framework-php according to Debians PHP
+      Policy (http://webapps-common.alioth.debian.org/draft-php/html/index.htm)
+    - Make zend-framework (old binary package) a transitional one, with
+      depends on the new binary package
+  * debian/rules:
+    - Don't install NEWS.txt as Changelog replacement anymore, it doesn't
+      exists in the upstream tarball anymore
+  * debian/Makefile: 
+    - Remove VERSION.txt from instal target, this file doesn't exist anymore,
+      too
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 18 Mar 2008 09:19:57 +0100
+
+zend-framework (1.0.4-0ubuntu1) hardy; urgency=low
+
+  * New upstream version
+    - This version is a bugfix release
+   
+
+ -- Stephan Hermann <sh@sourcecode.de>  Tue, 26 Feb 2008 21:00:10 +0100
+
+zend-framework (1.0.2-0ubuntu1) hardy; urgency=low
+
+  * Initial release 
+  * Latest Stable version 1.0.3 has bugs, which prevent apps to determine the
+    correct locale on the system. It's being fixed in latest SVN, but this is
+    too unstable
+
+ -- Stephan Hermann <sh@sourcecode.de>  Thu, 07 Feb 2008 11:14:22 +0100
+

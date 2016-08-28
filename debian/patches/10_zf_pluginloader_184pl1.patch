@@ -1,0 +1,14 @@
+Index: zend-framework-1.8.4/library/Zend/Loader/PluginLoader.php
+===================================================================
+--- zend-framework-1.8.4.orig/library/Zend/Loader/PluginLoader.php	2009-07-08 06:32:54.997151916 +0000
++++ zend-framework-1.8.4/library/Zend/Loader/PluginLoader.php	2009-07-08 06:32:59.747150888 +0000
+@@ -122,6 +122,9 @@
+      */
+     protected function _formatPrefix($prefix)
+     {
++       if($prefix == "") {
++               return $prefix;
++       }
+         return rtrim($prefix, '_') . '_';
+     }
+ 

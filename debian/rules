@@ -1,0 +1,71 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+include /usr/share/quilt/quilt.make
+
+TARBALL_NAME:=ZendFramework
+SRC_VERSION:=$(shell dpkg-parsechangelog | sed -ne 's/^Version: \(.*\)-.*/\1/p')
+PACKAGE_NAME:=$(shell dpkg-parsechangelog | sed -ne 's/^Source: \(.*\)/\1/p')
+
+build: patch
+	dh_testdir
+
+clean: unpatch
+	dh_testdir
+	dh_testroot
+	[ ! -e Makefile ] || rm -f Makefile
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+# Add here commands to install the package into debian/zend-framwork.
+	cp debian/Makefile .
+	$(MAKE) install-framework DESTDIR=$(CURDIR)/debian/libzend-framework-php/
+	$(MAKE) install-zendx DESTDIR=$(CURDIR)/debian/libzend-framework-zendx-php/
+	mkdir -p $(CURDIR)/debian/libzend-framework-php/usr/share/lintian/overrides/
+	mkdir -p $(CURDIR)/debian/libzend-framework-php/etc/php5/mods-available/
+	cp debian/libzend-framework-php.lintian.overrides $(CURDIR)/debian/libzend-framework-php/usr/share/lintian/overrides/libzend-framework-php
+	cp debian/zend-framework.ini $(CURDIR)/debian/libzend-framework-php/etc/php5/mods-available/zend-framework.ini
+	$(MAKE) install-scripts DESTDIR=$(CURDIR)/debian/zend-framework-bin/
+
+
+# Build architecture-independent files here.
+binary-arch: install
+
+binary-indep: install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs -Nzend-framework
+	dh_installdocs  -Nzend-framework
+	dh_link -pzend-framework-bin usr/bin/zf.sh usr/bin/zf
+	dh_install
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep  binary-arch
+.PHONY: build clean binary-indep binary-arch binary install get-orig-source
+
+get-orig-source: 
+	mkdir -p $(CURDIR)/temp
+	(cd $(CURDIR)/temp ; \
+	wget http://framework.zend.com/releases/$(TARBALL_NAME)-$(SRC_VERSION)/$(TARBALL_NAME)-$(SRC_VERSION).tar.gz ; \
+	tar -xvzf $(TARBALL_NAME)-$(SRC_VERSION).tar.gz ; \
+	rm -Rvf $(TARBALL_NAME)-$(SRC_VERSION)/externals/dojo ; \
+	mv $(TARBALL_NAME)-$(SRC_VERSION) $(PACKAGE_NAME)-$(SRC_VERSION) ; \
+	tar -cvzf $(PACKAGE_NAME)_$(SRC_VERSION).orig.tar.gz $(PACKAGE_NAME)-$(SRC_VERSION) ; \
+	cp $(CURDIR)/temp/$(PACKAGE_NAME)_$(SRC_VERSION).orig.tar.gz $(CURDIR)/../ )

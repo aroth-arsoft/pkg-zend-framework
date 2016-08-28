@@ -1,0 +1,3 @@
+version = 3
+http://framework.zend.com/downloads/archives .*/ZendFramework-(\d[\d\.]*)\.(?:zip|tgz|tbz|txz|tar\.(?:gz|xz|bz2))
+# Vasudev Kamath <kamathvasudev@gmail.com> 2012-12-21

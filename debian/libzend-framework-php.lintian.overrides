@@ -1,0 +1,13 @@
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Controller/_files/modules/bar/views/helpers/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Controller/views/helpers/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Memory/_files/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Search/Lucene/_files/_index/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Search/Lucene/Storage/_tempFiles/
+zend-framework: package-contains-empty-directory usr/share/php/zend-framework/Zend/View/Filter/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Controller/_files/modules/foo/views/helpers/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Controller/_files/modules/default/controllers/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Db/Table/_files/
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Controller/views/filters/
+zend-framework: zero-byte-file-in-doc-directory usr/share/doc/zend-framework/tests/Zend/Http/Client/_files/testHeaders.php
+zend-framework: package-contains-empty-directory usr/share/doc/zend-framework/tests/Zend/Controller/_files/modules/bar/views/filters/
+zend-framework: zero-byte-file-in-doc-directory usr/share/doc/zend-framework/tests/Zend/Filter/_files/file.1

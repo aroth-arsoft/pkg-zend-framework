@@ -1,0 +1,15 @@
+Index: zend-framework-1.10.0alpha1/bin/zf.sh
+===================================================================
+--- zend-framework-1.10.0alpha1.orig/bin/zf.sh	2010-01-02 12:50:33.544743060 +0000
++++ zend-framework-1.10.0alpha1/bin/zf.sh	2010-01-02 12:52:26.204761990 +0000
+@@ -38,8 +38,8 @@
+         SELF_LINK="$SELF_LINK_TMP"
+         SELF_LINK_TMP="$(readlink "$SELF_LINK")"
+     done
+-    PHP_DIR="$(dirname "$SELF_LINK")"
++    PHP_DIR="/usr/share/zend-framework"
+ fi
+ 
+-"$PHP_BIN" -d safe_mode=Off -f "$PHP_DIR/zf.php" -- "$@"
++ZEND_TOOL_INCLUDE_PATH_PREPEND="/usr/share/php/libzend-framework-php" "$PHP_BIN" -d safe_mode=Off -f "$PHP_DIR/zf.php" -- "$@"
+ 
