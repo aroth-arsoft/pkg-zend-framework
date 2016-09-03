@@ -1,8 +1,8 @@
 Installation
 
 In order to use the Zend Framework from your php scripts, you'll have to add
-/usr/share/php/zend-framework/ on the include_path of php4/php5.
-This is done easily: vi /etc/php5/conf.d/zend-framework.ini and remove the ";" 
+/usr/share/php/zend-framework/ on the include_path of php.
+This is done easily: vi /etc/php/7.0/conf.d/zend-framework.ini and remove the ";"
 from the beginning of the include_path line. For this to work properly, you need also
 to remove the comment sign from the 'include_path' configuration variable in your php.ini.
 If you don't do this, php will segfault. (http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=497453)

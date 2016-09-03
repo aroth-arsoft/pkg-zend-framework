@@ -34,9 +34,9 @@ install: build
 	$(MAKE) install-framework DESTDIR=$(CURDIR)/debian/libzend-framework-php/
 	$(MAKE) install-zendx DESTDIR=$(CURDIR)/debian/libzend-framework-zendx-php/
 	mkdir -p $(CURDIR)/debian/libzend-framework-php/usr/share/lintian/overrides/
-	mkdir -p $(CURDIR)/debian/libzend-framework-php/etc/php5/mods-available/
+	mkdir -p $(CURDIR)/debian/libzend-framework-php/etc/php/7.0/mods-available/
 	cp debian/libzend-framework-php.lintian.overrides $(CURDIR)/debian/libzend-framework-php/usr/share/lintian/overrides/libzend-framework-php
-	cp debian/zend-framework.ini $(CURDIR)/debian/libzend-framework-php/etc/php5/mods-available/zend-framework.ini
+	cp debian/zend-framework.ini $(CURDIR)/debian/libzend-framework-php/etc/php/7.0/mods-available/zend-framework.ini
 	$(MAKE) install-scripts DESTDIR=$(CURDIR)/debian/zend-framework-bin/
 
 
